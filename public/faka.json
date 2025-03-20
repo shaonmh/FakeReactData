@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "img": "https://picsum.photos/200/300?random=1",
+      "description": "High-quality noise-canceling wireless headphones with 24hr battery life",
+      "category": "Electronics",
+      "rating": 4.5,
+      "stock": true
+    },
+    {
+      "id": 2,
+      "name": "Stainless Steel Water Bottle",
+      "price": 24.95,
+      "img": "https://picsum.photos/200/300?random=2",
+      "description": "Insulated eco-friendly water bottle, 32oz capacity",
+      "category": "Home & Kitchen",
+      "rating": 4.8,
+      "stock": true
+    },
+    {
+      "id": 3,
+      "name": "Men's Casual Shirt",
+      "price": 45.50,
+      "img": "https://picsum.photos/200/300?random=3",
+      "description": "100% Cotton slim-fit button-down shirt",
+      "category": "Clothing",
+      "rating": 4.2,
+      "stock": false
+    },
+    {
+      "id": 4,
+      "name": "Smart Fitness Watch",
+      "price": 149.99,
+      "img": "https://picsum.photos/200/300?random=4",
+      "description": "Waterproof fitness tracker with heart rate monitor",
+      "category": "Electronics",
+      "rating": 4.6,
+      "stock": true
+    },
+    {
+      "id": 5,
+      "name": "Ceramic Coffee Mug Set",
+      "price": 19.99,
+      "img": "https://picsum.photos/200/300?random=5",
+      "description": "Set of 4 ceramic mugs with ergonomic handles",
+      "category": "Home & Kitchen",
+      "rating": 4.7,
+      "stock": true
+    }
+  ]
