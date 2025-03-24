@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.main-conatiner{
+  display: flex;
+  gap:3rem
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
