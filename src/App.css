@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.main-container{
+  display: flex;
+  gap: 3rem;
+}
+
+.cart-title{
+  display: flex;
+  justify-content: space-around;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

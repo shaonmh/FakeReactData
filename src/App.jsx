@@ -20,9 +20,20 @@ function App() {
 
   return (
     <>
-     <h1>Hello world</h1>
-     {products.map(product => <Product product={product}></Product>
-     )}
+    <div className="main-container">
+      <div className="card-container">
+        
+        {products.map(product => <Product product={product}></Product>
+        )}
+      </div>
+      <div className="cart-container">
+        <h2>This is cart</h2>
+        <div className="cart-title">
+          <h4>Name</h4>
+          <h4>Price</h4>
+        </div>
+      </div>
+    </div>
     </>
   )
 }
