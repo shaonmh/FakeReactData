@@ -41,7 +41,6 @@
   color: #888;
 }
 
-<<<<<<< HEAD
 .main-container{
   display: flex;
   gap: 3rem;
@@ -54,15 +53,10 @@
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-=======
-
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
 .main-conatiner{
   display: flex;
   gap:3rem
-}
-.card-container{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
->>>>>>> 554b98c8ab0cdeef73791e0a34a23644badce6cf
 }
