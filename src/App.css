@@ -1,36 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -43,20 +13,27 @@
 
 .main-container{
   display: flex;
-  gap: 3rem;
+  gap: 30px;
 }
 
-.cart-title{
+.cart-title, .cart-info{
   display: flex;
   justify-content: space-around;
+  gap: 3rem
 }
+
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
+  width: 60%;
 }
-.main-conatiner{
-  display: flex;
-  gap:3rem
+.cart-container{
+  width: 35%;
+  float: left;
+  margin-left: 3rem;
+}
+.cart-container h4,.cart-container h2 {
+  margin: 0;
+  padding: 0;
 }
