@@ -7,6 +7,7 @@ import Product from './components/Product';
 
 function App() {
   const [products, setProducts] = useState([]);
+  const [cart, setCart] = useState([])
 
   useEffect(()=>{
     fetch('./faka.json')
@@ -18,12 +19,17 @@ function App() {
     })
   },[])
 
+  const handleCart = (p) => {
+    console.log(p)
+    setCart(p)
+  }
+
   return (
     <>
       <div className="main-conatiner">
         <div className="card-container">
 
-     {products.map(product => <Product product={product}></Product>
+     {products.map(product => <Product handleCart={handleCart} product={product}></Product>
      )}
         </div>
         <div className="cart-container">
