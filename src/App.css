@@ -1,6 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -13,27 +14,42 @@
 
 .main-container{
   display: flex;
-  gap: 30px;
 }
 
 .cart-title, .cart-info{
   display: flex;
-  justify-content: space-around;
-  gap: 3rem
+  gap: 3rem;
+  margin: 30px 0;
+  align-items: center;
+}
+.cart-title {
+  justify-content: space-evenly;
+}
+.cart-info{
+  
+  justify-content: space-between;
 }
 
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
+  grid-gap: 3%;
   width: 60%;
 }
 .cart-container{
   width: 35%;
-  float: left;
   margin-left: 3rem;
+  
+
 }
 .cart-container h4,.cart-container h2 {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
+}
+.cart-container h2{
+  text-align: center;
+}
+.dlt{
+  background: burlywood;
+  margin-left: 20px;
 }

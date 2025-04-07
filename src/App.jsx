@@ -32,6 +32,13 @@ function App() {
     }
   }
 
+  const handleDelete = (id) =>{
+    
+    const newCart = cart.filter(item => item.id != id)
+    console.log(newCart);
+    setCart(newCart)
+  }
+
 
   return (
     <>
@@ -49,8 +56,9 @@ function App() {
         </div>
           {cart.map((item)=>
             <div className="cart-info" key={item.id}>
-              <h4>{item.name.slice(0,10)} </h4>
-              <h4> $ {item.price}</h4>
+              <h4>{item.name.slice(0,25).concat('...')} </h4>
+              <h4> $ {item.price}
+              <button onClick={()=> handleDelete(item.id)} className='dlt'>Delete</button></h4>
             </div>
           )}
         
