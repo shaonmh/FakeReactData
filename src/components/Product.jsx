@@ -1,11 +1,14 @@
 import React from 'react';
+import './Products.css'
 
 const Product = ({product, handleCart}) => {
     return (
-        <div>
-            <h2>{product.name}</h2>
-            <img src={product.img}  /><br />
-            <button onClick={()=>handleCart(product)}>Add To Cart</button>
+        <div className='product'>
+            <img src={product.img}  /> <br />
+            <h3>{product.name.slice(0,20).concat('...')}</h3>
+            <p>Price: ${product.price}</p>
+            <button onClick={()=>handleCart(product)} className='btn-cart' onClick={()=>handleCart(product)}>Add To Cart</button>
+
         </div>
     );
 };
