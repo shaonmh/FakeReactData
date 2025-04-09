@@ -41,11 +41,6 @@ function App() {
 
 
 
-  const handleCart = (p) => {
-    console.log(p)
-    setCart(p)
-  }
-
   return (
     <>
     <div className="main-container">
